@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "HMZ.API": {
+    "TTK.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
