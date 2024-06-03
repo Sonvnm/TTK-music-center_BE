@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CloudinaryDotNet" Version="1.26.0" />
+		<PackageReference Include="Google.Apis.Auth" Version="1.60.0" />
+		<PackageReference Include="Google.Apis.Drive.v3" Version="1.60.0.2971" />
+		<PackageReference Include="Google.Apis.Gmail.v1" Version="1.60.0.2958" />
+		<PackageReference Include="IdentityModel" Version="6.0.0" />
+		<PackageReference Include="MailKit" Version="3.5.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="7.0.3" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.3" />
+		<PackageReference Include="MimeKit" Version="3.5.0" />
+		<PackageReference Include="RestSharp" Version="110.2.1-alpha.0.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\HMZ.Database\HMZ.Database.csproj" />
+		<ProjectReference Include="..\HMZ.DTOs\HMZ.DTOs.csproj" />
+		<ProjectReference Include="..\HMZ.SDK\HMZ.SDK.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Services\NewFolder\" />
+	</ItemGroup>
+
+</Project>

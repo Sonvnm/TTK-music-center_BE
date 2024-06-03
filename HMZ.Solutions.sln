@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMZ.Database", "HMZ.Database\HMZ.Database.csproj", "{3991466E-BDFA-414A-99DB-B06B078338B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMZ.API", "HMZ.API\HMZ.API.csproj", "{BD36B3C9-4C7C-4AA7-AFEF-D9508AD37CDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMZ.Service", "HMZ.Service\HMZ.Service.csproj", "{4DFE4840-BA82-4BD3-BCFE-B517D5EDB1F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMZ.DTOs", "HMZ.DTOs\HMZ.DTOs.csproj", "{B6456A37-680E-45ED-A1C3-CEF36CA5D258}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HMZ.SDK", "HMZ.SDK\HMZ.SDK.csproj", "{8AEA265F-2A5F-4113-8A67-916D9B92BBF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3991466E-BDFA-414A-99DB-B06B078338B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3991466E-BDFA-414A-99DB-B06B078338B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3991466E-BDFA-414A-99DB-B06B078338B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3991466E-BDFA-414A-99DB-B06B078338B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD36B3C9-4C7C-4AA7-AFEF-D9508AD37CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD36B3C9-4C7C-4AA7-AFEF-D9508AD37CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD36B3C9-4C7C-4AA7-AFEF-D9508AD37CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD36B3C9-4C7C-4AA7-AFEF-D9508AD37CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFE4840-BA82-4BD3-BCFE-B517D5EDB1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFE4840-BA82-4BD3-BCFE-B517D5EDB1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFE4840-BA82-4BD3-BCFE-B517D5EDB1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFE4840-BA82-4BD3-BCFE-B517D5EDB1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6456A37-680E-45ED-A1C3-CEF36CA5D258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6456A37-680E-45ED-A1C3-CEF36CA5D258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6456A37-680E-45ED-A1C3-CEF36CA5D258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6456A37-680E-45ED-A1C3-CEF36CA5D258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AEA265F-2A5F-4113-8A67-916D9B92BBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AEA265F-2A5F-4113-8A67-916D9B92BBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AEA265F-2A5F-4113-8A67-916D9B92BBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AEA265F-2A5F-4113-8A67-916D9B92BBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D3ED22E-E0C1-464B-B70E-8CAA4354C8F7}
+	EndGlobalSection
+EndGlobal

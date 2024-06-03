@@ -1,0 +1,25 @@
+[
+  {
+    "FirstName": "System",
+    "LastName": "Admin",
+    "UserName": "admin",
+    "Image": "https://icon-library.com/images/default-user-icon/default-user-icon-13.jpg",
+    "Email": "admin@hmz.com"
+  },
+  {
+    "FirstName": "System",
+    "LastName": "Teacher",
+    "UserName": "teacher",
+    "Image": "https://icon-library.com/images/default-user-icon/default-user-icon-13.jpg",
+    "Email": "teacher@hmz.com"
+
+  },
+  {
+    "FirstName": "Nguyễn",
+    "LastName": "Văn A",
+    "UserName": "member",
+    "Image": "https://icon-library.com/images/default-user-icon/default-user-icon-13.jpg",
+    "Email": "member@hmz.com"
+  }
+]
+

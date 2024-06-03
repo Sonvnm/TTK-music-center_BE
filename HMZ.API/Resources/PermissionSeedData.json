@@ -1,0 +1,34 @@
+[
+    {
+        "Key": "WRITE",
+        "Value": "wUser",
+        "Description": "Can write function User"
+    },
+    {
+        "Key": "READ",
+        "Value": "rUser",
+        "Description": "Can read function User"
+    },
+    {
+        "Key": "WRITE",
+        "Value": "wRole",
+        "Description": "Can write function Role"
+    },
+    {
+        "Key": "READ",
+        "Value": "rRole",
+        "Description": "Can read function Role"
+    },
+    {
+        "Key": "WRITE",
+        "Value": "wPermission",
+        "Description": "Can write function Permission"
+    },
+    {
+        "Key": "READ",
+        "Value": "rPermission",
+        "Description": "Can read function Permission"
+    }
+
+ 
+]

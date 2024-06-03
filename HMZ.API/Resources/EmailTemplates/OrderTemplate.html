@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4cacaf;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h3>Thông tin đơn hàng</h3>
+    <p>Đơn hàng của bạn đã được đặt thành công. Dưới đây là thông tin chi tiết về đơn hàng của bạn:</p>
+    <p>Mã đơn hàng: <strong>{{OrderCode}}</strong></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Tên khóa học</th>
+                <th>Số lượng</th>
+                <th>Giá</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+                <td>Product 1</td>
+                <td>1</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tổng tiền</td>
+                <td>$10</td>
+            </tr> -->
+            {{TableBody}}
+        </tbody>
+    </table>
+</body>
+</html>
