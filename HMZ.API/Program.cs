@@ -32,7 +32,7 @@ builder.Services.AddEndpointsApiExplorer();
 // Add Authentica for Swagger
 builder.Services.AddSwaggerGen(option =>
 {
-    option.SwaggerDoc("v1", new OpenApiInfo { Title = "HMZ API", Version = "v1" });
+    option.SwaggerDoc("v1", new OpenApiInfo { Title = "TTK API", Version = "v1" });
     option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
